@@ -1,0 +1,3 @@
+/.phpunit.cache
+# Ignorar la carpeta vs
+.vs/

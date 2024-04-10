@@ -1,0 +1,12 @@
+C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\Consultorio\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\Consultorio\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\Consultorio\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\Consultorio\CapaDatos\bin\Debug\EntityFramework.dll
+C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\Consultorio\CapaDatos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\Consultorio\CapaDatos\bin\Debug\EntityFramework.xml
+C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\Consultorio\CapaDatos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\Consultorio\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\Consultorio\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\Consultorio\CapaDatos\obj\Debug\CapaDatos.csproj.Up2Date
+C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\Consultorio\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\Consultorio\CapaDatos\obj\Debug\CapaDatos.pdb
