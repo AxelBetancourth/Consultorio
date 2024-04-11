@@ -52,12 +52,30 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseDatos\ConsultorioContext.cs" />
-    <Compile Include="Class1.cs" />
+    <Compile Include="BaseDatos\Modelos\Medico.cs" />
+    <Compile Include="BaseDatos\Modelos\Paciente.cs" />
+    <Compile Include="Migrations\202404102259473_AddTablaMedico.cs" />
+    <Compile Include="Migrations\202404102259473_AddTablaMedico.Designer.cs">
+      <DependentUpon>202404102259473_AddTablaMedico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202404102302535_AddTablaPaciente.cs" />
+    <Compile Include="Migrations\202404102302535_AddTablaPaciente.Designer.cs">
+      <DependentUpon>202404102302535_AddTablaPaciente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202404102259473_AddTablaMedico.resx">
+      <DependentUpon>202404102259473_AddTablaMedico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202404102302535_AddTablaPaciente.resx">
+      <DependentUpon>202404102302535_AddTablaPaciente.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
