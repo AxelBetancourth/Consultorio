@@ -52,8 +52,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseDatos\ConsultorioContext.cs" />
+    <Compile Include="BaseDatos\Modelos\Cita.cs" />
     <Compile Include="BaseDatos\Modelos\Medico.cs" />
     <Compile Include="BaseDatos\Modelos\Paciente.cs" />
+    <Compile Include="Core\IRepository.cs" />
+    <Compile Include="Core\IUnitOfWork.cs" />
+    <Compile Include="Core\Repository.cs" />
+    <Compile Include="Core\UnitOfWork.cs" />
+    <Compile Include="DCita.cs" />
+    <Compile Include="DMedico.cs" />
+    <Compile Include="DPaciente.cs" />
     <Compile Include="Migrations\202404102259473_AddTablaMedico.cs" />
     <Compile Include="Migrations\202404102259473_AddTablaMedico.Designer.cs">
       <DependentUpon>202404102259473_AddTablaMedico.cs</DependentUpon>
