@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CapaDatos.BaseDatos.Modelos;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
@@ -12,7 +13,6 @@ namespace CapaDatos.BaseDatos
     {
         public ConsultorioContext() : base("Consultorio")
         {
-            
         }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
@@ -22,5 +22,9 @@ namespace CapaDatos.BaseDatos
             modelBuilder.Conventions.Remove<ManyToManyCascadeDeleteConvention>();
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
         }
+
+        public DbSet<Medico> Medico { get; set; }
+        public DbSet<Paciente> Paciente { get; set; }
+        public DbSet<Cita> Cita { get; set; }
     }
 }
