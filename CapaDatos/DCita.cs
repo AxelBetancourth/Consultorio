@@ -2,6 +2,7 @@
 using CapaDatos.Core;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -25,7 +26,9 @@ namespace CapaDatos
 
         public List<Cita> TodasLasCitas()
         {
-            return _unitOfWork.Repository<Cita>().Consulta().ToList();
+            return _unitOfWork.Repository<Cita>().Consulta().Include(c => c.Medico)
+                .Include(c => c.Paciente)
+                .ToList();
         }
         public int GuardarCitas(Cita cita)
         {

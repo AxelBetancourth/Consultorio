@@ -21,11 +21,11 @@ namespace CapaNegocio
         {
             return dCita.TodasLasCitas();
         }
-        public int AgregarMedicos(Cita cita)
+        public int AgregarCitas(Cita cita)
         {
             return dCita.GuardarCitas(cita);
         }
-        public int EditarMedicos(Cita cita)
+        public int EditarCitas(Cita cita)
         {
             return dCita.GuardarCitas(cita);
         }
@@ -40,9 +40,9 @@ namespace CapaNegocio
             {
                 c.CitaId,
                 c.MedicoId,
-                NombresMedicos = $"{c.Medico.Nombres}' '{c.Paciente.Apellidos}",
+                NombresMedicos = c.Medico.Nombres + " " + c.Medico.Apellidos,
                 c.PacienteId,
-                NombresPacientes = $"{c.Paciente.Nombres}' '{c.Paciente.Apellidos}",
+                NombresPacientes = c.Paciente.Nombres + " " + c.Paciente.Apellidos,
                 c.FechaCita,
                 c.Estado
             });
@@ -55,9 +55,9 @@ namespace CapaNegocio
             {
                 c.CitaId,
                 c.MedicoId,
-                NombresMedicos = $"{c.Medico.Nombres}' '{c.Paciente.Apellidos}",
+                NombresMedicos = c.Medico.Nombres + " " + c.Medico.Apellidos,
                 c.PacienteId,
-                NombresPacientes = $"{c.Paciente.Nombres}' '{c.Paciente.Apellidos}",
+                NombresPacientes = c.Paciente.Nombres + " " + c.Paciente.Apellidos,
                 c.FechaCita,
                 c.Estado
             });
