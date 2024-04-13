@@ -18,3 +18,9 @@ C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\Consultorio\Consultorio\obj\D
 C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\Consultorio\Consultorio\obj\Debug\CapaPres.61CA7C38.Up2Date
 C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\Consultorio\Consultorio\obj\Debug\Consultorio.exe
 C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\Consultorio\Consultorio\obj\Debug\Consultorio.pdb
+C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\Consultorio\Consultorio\obj\Debug\Consultorio.MenuPrincipal.resources
+C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\Consultorio\Consultorio\obj\Debug\Consultorio.PMedico.resources
+C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\Consultorio\Consultorio\obj\Debug\Consultorio.PCita.resources
+C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\Consultorio\Consultorio\obj\Debug\Consultorio.PPaciente.resources
+C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\Consultorio\Consultorio\obj\Debug\Consultorio.PBuscarMedicos.resources
+C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\Consultorio\Consultorio\obj\Debug\Consultorio.PBuscarPacientes.resources

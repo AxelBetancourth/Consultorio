@@ -13,3 +13,4 @@ C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\Consultorio\CapaDatos\obj\Deb
 C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\Consultorio\CapaDatos\obj\Debug\CapaDatos.Migrations.AddTablaMedico.resources
 C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\Consultorio\CapaDatos\obj\Debug\CapaDatos.csproj.GenerateResource.cache
 C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\Consultorio\CapaDatos\obj\Debug\CapaDatos.Migrations.AddTablaPaciente.resources
+C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\Consultorio\CapaDatos\obj\Debug\CapaDatos.Migrations.AddTablaCita.resources
